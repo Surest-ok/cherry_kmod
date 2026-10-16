@@ -96,15 +96,11 @@ int cherry_kmod_list(char *buf, size_t buf_len);
 
 Run acceptance tests:
 ```bash
-# Default EL1 Execution
+# Standard SMP Execution
 scons test
-
-# Native EL2 Hypervisor Execution
-scons RUN_EL=2 test
 
 # Cross-core Stress Tests
 scons SCHED_MODE=cross test
-scons RUN_EL=2 SCHED_MODE=cross test
 ```
 
 Verification marker:
