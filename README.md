@@ -1,6 +1,6 @@
 # CherryKmod - Dynamic Kernel Module Subsystem for FreeRTOS AArch64
 
-`CherryKmod` is a lightweight, high-performance loadable kernel module subsystem designed for the FreeRTOS AArch64 SMP Unikernel environment. It provides full ELF64 relocatable object (`.ko` / `ET_REL`) loading, dynamic relocation resolution, kernel symbol export management (`EXPORT_SYMBOL`), instruction cache coherency, and Linux-compatible shell utilities (`insmod`, `rmmod`, `lsmod`).
+`CherryKmod` is a lightweight, high-performance loadable kernel module subsystem designed for the FreeRTOS AArch64 SMP modular OS environment. It provides full ELF64 relocatable object (`.ko` / `ET_REL`) loading, dynamic relocation resolution, kernel symbol export management (`EXPORT_SYMBOL`), instruction cache coherency, and Linux-compatible shell utilities (`insmod`, `rmmod`, `lsmod`).
 
 ---
 
